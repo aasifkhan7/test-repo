@@ -1,0 +1,11 @@
+Step 1/4 : FROM ubuntu:xenial
+ ---> fab5e942c505
+Step 2/4 : RUN apt-get -qq update && apt-get install -y build-essential
+ ---> Using cache
+ ---> f82ff065b028
+Step 3/4 : COPY Makefile ./
+ ---> Using cache
+ ---> 331631b80872
+Step 4/4 : RUN make
+ ---> Using cache
+ ---> ab706d31e4d6

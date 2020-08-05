@@ -1,0 +1,9 @@
+FROM ubuntu:xenial
+
+ARG DOCKER_HUB=FALSE
+
+RUN apt-get -qq update && apt-get install -y build-essential
+
+COPY Makefile ./
+
+RUN make

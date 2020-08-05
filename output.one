@@ -1,0 +1,12 @@
+Step 5/5 : RUN make
+ ---> Running in 929c9301e212
+env
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/
+HOME=/root
+HOSTNAME=929c9301e212
+DOCKER_HUB=TRUE
+MAKEFLAGS=
+MFLAGS=
+MAKELEVEL=1
+
